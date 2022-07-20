@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  background: rgb(240, 221, 221);
+  padding: 10px;
+  width: 30%;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item p {
+  margin: 0;
+}
+.item button {
+  cursor: pointer;
+}
